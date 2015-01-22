@@ -11,8 +11,10 @@ public static int subrtract(int a, int b){
 public static void main(String[] args){
 	int a = 7;
 	int b = 5;
-	add(a,b);
-	sub(a,b);
+	int add;
+	int sub;
+	addition(a,b);
+	subtract(a,b);
 	System.out.println(add);
 	System.out.println(sub);
 }

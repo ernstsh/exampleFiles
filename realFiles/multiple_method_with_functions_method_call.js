@@ -9,8 +9,8 @@ function subtraction(a,b){
 function main(){
 	a=7;
 	b=5;
-	addition(a,b);
-	subtraction(a,b);
+	add = addition(a,b);
+	sub = subtraction(a,b);
 	console.log(addition);
 	console.log(subtraction);
 }
