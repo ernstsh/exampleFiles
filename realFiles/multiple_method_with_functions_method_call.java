@@ -13,8 +13,8 @@ public static void main(String[] args){
 	int b = 5;
 	int add;
 	int sub;
-	addition(a,b);
-	subtract(a,b);
+	add = addition(a,b);
+	sub = subtract(a,b);
 	System.out.println(add);
 	System.out.println(sub);
 }
